@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Bachao</string>
+    <string name="menu_settings">CONFIGURACION</string>
+    <string name="alert">ayudar</string>
+    <string name="friends_contacts">Contactos</string>
+    <string name="frcontact">Ingrese el número de</string>
+    <string name="addcontact">Agregar contactos</string>
+    <string name="updatelocstring">Actualizar mi Ubicación Todas</string>
+    <string name="regex_phone">^\\(?\\d{3}[\\)?|-]\\d{3}[- ]\\d{4}((\\s=?)(ext\\.|x)\\d{1,4})?$</string>
+    <string name="onehour">1 hora</string>
+    <string name="sixhours">6 Horas</string>
+    <string name="daily">diario</string>
+    <string name="onstartbach">Sólo cuando se inicia bachchao</string>
+    <string name="videostreaming">Streaming de vídeo</string>
+    <string name="emailid">Email Id</string>
+    <string name="PhoneNumber">número de teléfono</string>
+    <string name="done">hecho</string>
+    <string name="Contacts">CONTACTOS</string>
+    <string name="locationupdatetext">ubicación de actualización</string>
+    <string name="Custommsgtext">MENSAJE PERSONALIZADO</string>
+    <string name="never">nunca</string>
+    <string name="locationhint">Actualmente estoy en</string>
+    <string name ="custommsghint">Estoy en necesidad de ayuda</string>
+    <string name="userhint">-su nombre</string>
+    <string name="space"> </string> 
+    <string name="unknowncontact">Contacto desconocido</string>
+    <string name="findinglocation">Encontrar ubicación</string>
+    <string name="search">Buscar</string>
+	<string name="help">Ayuda, me encuentro en una situación de emergencia en</string>
+	<string name="addcontact">añadir como contacto</string>
+	<string name="replacecontact">reemplazar el contacto</string>
+	<string name="assignedcontact">contacto asignado</string>
+	<string name="contactlist">LISTA DE CONTACTOS</string>
+	<string name="cannotaddcontact">No se puede agregar un contacto con ningún número de teléfono y correo electrónico Id</string>
+	<string name="cannotaddinvalid">No se puede agregar el contacto con número de teléfono válido</string>
+	<string name="contactallreadyinlist">El contacto ya está en su lista</string>
+	<string name="smsfailed"> SMS fracasado !!! </string>
+	<string name="cameranotavailable">La cámara no dispone de! </string>
+	<string name="locationsetting">Tipo de ubicación</string>
+	<string name="approxaddress">Enviar dirección aproximada</string>
+	<string name="accuratelocation">Enviar Precisa Ubicación Valor</string>
+	<string name="internetconnectset">Esto necesita conexión a Internet</string>
+	<string name ="dursmswarnpre">Un mensaje será enviado cada</string>
+	<string name="dursmswarnpost">a sus contactos</string>
+	<string name="contactsloading">Por favor espere contactos están cargando ..</string>
+	<string name="nomatchingcontacts">no hay contactos coincidentes</string>
+	<string name="delete">borrar</string>
+	
+
+</resources>

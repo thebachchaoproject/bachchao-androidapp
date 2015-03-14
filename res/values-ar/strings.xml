@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Bachao</string>
+    <string name="menu_settings">إعدادات</string>
+    <string name="alert">مساعدة</string>
+    <string name="friends_contacts">تلامس</string>
+    <string name="frcontact">أدخل رقم</string>
+    <string name="addcontact">إضافة جهات اتصال</string>
+    <string name="updatelocstring">تحديث مكاني كل</string>
+    <string name="regex_phone">^\\(?\\d{3}[\\)?|-]\\d{3}[- ]\\d{4}((\\s=?)(ext\\.|x)\\d{1,4})?$</string>
+    <string name="onehour">1 ساعات</string>
+    <string name="sixhours">6 ساعات</string>
+    <string name="daily">يوميا</string>
+    <string name="onstartbach">فقط عند بدء bachchao</string>
+    <string name="videostreaming">لقطات فيديو</string>
+    <string name="emailid">معرف البريد الإلكتروني</string>
+    <string name="PhoneNumber">رقم الهاتف</string>
+    <string name="done">فعلت</string>
+    <string name="Contacts">اتصالات</string>
+    <string name="locationupdatetext">الموقع تحديث</string>
+    <string name="Custommsgtext">رسالة مخصصةأبدا</string>
+    <string name="never">أبدا</string>
+    <string name="locationhint">وأنا حاليا في</string>
+    <string name ="custommsghint">أنا في حاجة للمساعدة</string>
+    <string name="userhint">-اسمك</string>
+    <string name="settings">إعدادات</string>
+    <string name="space"> </string>
+    <string name="unknowncontact">الاتصال غير معروف</string>
+    <string name="search">بحث</string>  
+    <string name="addcontact">إضافة جهة اتصال</string>
+	<string name="replacecontact">استبدال للإتصال</string>
+	<string name="help">مساعدة! أنا في حالة الطوارئ في</string>
+    <string name="assignedcontact">اتصل إسناد</string>
+	<string name="contactlist">قائمة الاتصال</string>
+	<string name="cannotaddcontact">لا يمكن إضافة جهة اتصال مع عدم وجود رقم الهاتف ورقم البريد الإلكتروني</string>
+	<string name="cannotaddinvalid"> لا يمكن إضافة جهة اتصال مع رقم الهاتف غير صالح</string>
+	<string name="contactallreadyinlist">والاتصال هو بالفعل في القائمة الخاصة بك</string>
+    <string name="smsfailed"> فشل رسالة </string>
+	<string name="cameranotavailable">الكاميرا غير متوفرة! </string>
+	<string name="locationsetting">نوع الموقع</string>
+	<string name="approxaddress">إرسال العنوان التقريبي</string>
+	<string name="accuratelocation">إرسال دقة الموقع القيمة</string>
+	<string name="internetconnectset">هذا يحتاج إلى اتصال إنترنت</string>
+	<string name ="dursmswarnpre">إلى جهات الاتصال الخاصة بك</string>
+	<string name="dursmswarnpost">سيتم إرسال رسالة نصية قصيرة كل</string>
+	<string name="contactsloading">يرجى الانتظار اتصالات تقوم بتحميل ..</string>
+	<string name="nomatchingcontacts">لا اتصالات مطابقة</string>
+	<string name="delete">حذف</string>
+	
+</resources>

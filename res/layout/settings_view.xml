@@ -1,0 +1,299 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ScrollView01"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    
+<RelativeLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    tools:context=".settingsActivity"
+    android:focusable="true"
+    android:focusableInTouchMode="true">
+  
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="5dp"
+        android:drawableLeft="@drawable/contacts"
+        android:gravity="left|center"
+        android:text="@string/Contacts"
+        android:textColor="#512525"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+    
+    <Button
+        android:id="@+id/contact1"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="10dp"
+        android:clickable="true"
+        android:layout_weight="1.0"
+        android:layout_gravity="fill_vertical"
+        android:gravity="bottom|center"
+        android:textColor="#FFFFFF"
+        android:text="+"
+        android:background="@drawable/addcontactbox"
+        android:textSize="12sp"
+        android:layout_marginLeft="10dp"
+        android:maxLength="13" />
+
+   
+    <Button
+        android:id="@+id/contact2"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignTop="@+id/contact1"
+        android:layout_marginLeft="17dp"
+        android:layout_toRightOf="@+id/contact1"
+        android:background="@drawable/addcontactbox"
+        android:layout_gravity="fill_vertical"
+        android:gravity="bottom|center"
+        android:textColor="#FFFFFF"
+         android:textSize="12sp"
+        android:hint="@string/space"
+        android:maxLength="13" />
+
+    <Button
+        android:id="@+id/contact3"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignBaseline="@+id/contact2"
+        android:layout_alignBottom="@+id/contact2"
+        android:layout_marginLeft="18dp"
+        android:layout_toRightOf="@+id/contact2"
+        android:background="@drawable/addcontactbox"
+        android:clickable="true"
+        android:hint="@string/space"
+        android:layout_gravity="fill_vertical"
+        android:gravity="bottom|center"
+        android:textColor="#FFFFFF"
+         android:textSize="12sp"
+        android:maxLength="13" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView4"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="10dp"
+        android:text="@string/updatelocstring" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/contact1"
+        android:drawableLeft="@drawable/location_iconv"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom = "15dp"
+        android:text="@string/locationupdatetext"
+        android:textColor="#512525"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+	<RelativeLayout
+	    android:id="@+id/locationsetting"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_below="@+id/textView3"
+	    android:gravity="center" >
+
+	  <Button
+	      android:id="@+id/increasedur"
+	      style="?android:attr/buttonStyleSmall"
+	      android:layout_width="wrap_content"
+	      android:layout_height="wrap_content"
+	      android:layout_alignBaseline="@+id/decreasedur"
+	      android:layout_alignBottom="@+id/decreasedur"
+	      android:layout_toRightOf="@+id/duration"
+	      android:background="@drawable/locationtabright" />
+
+	  <Button
+	      android:id="@+id/decreasedur"
+	      style="?android:attr/buttonStyleSmall"
+	      android:layout_width="wrap_content"
+	      android:layout_height="wrap_content"
+	      android:layout_alignParentTop="true"
+	      android:layout_toLeftOf="@+id/duration"
+	      android:background="@drawable/locationtableft" />
+
+	  <TextView
+	      android:id="@+id/duration"
+	      android:layout_width="wrap_content"
+	      android:layout_height="wrap_content"
+	      android:layout_alignParentTop="true"
+	      android:layout_centerHorizontal="true"
+	      android:background="@drawable/locationtab"
+	      android:gravity="center"
+	      android:text="@string/never"
+	      android:textAppearance="?android:attr/textAppearanceMedium"
+	      android:textColor="#FFFFFF" />
+
+</RelativeLayout>
+<EditText
+        android:id="@+id/trackmsg"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/locationsetting"
+        android:background="@drawable/customedittext"
+        android:drawableLeft="@drawable/locationmessage"
+        android:ems="10"
+        android:hint="@string/locationhint"
+        android:inputType="text|textMultiLine"
+        android:maxLength="110"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:textColorHint="#EEEEEE" >
+    </EditText>
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/trackmsg"
+        android:drawableLeft="@drawable/location_iconv"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom = "15dp"
+        android:text="@string/locationsetting"
+        android:textColor="#512525"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+    <LinearLayout
+        android:id="@+id/customlayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/customlinearlayout" 
+        
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        
+        
+         android:layout_below="@+id/textView2"> 
+    <EditText
+        android:id="@+id/customalertmsg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        
+        android:ems="10"
+        android:gravity="center"
+        android:hint="@string/custommsghint"
+        android:inputType="text|textMultiLine"
+        android:maxLength="110"
+        android:minLines="2"
+        android:background="@null"
+        android:drawableBottom="@drawable/custommsg_line"
+        android:textColorHint="#EEEEEE" >
+	 </EditText>
+	 
+</LinearLayout>
+<EditText
+        android:id="@+id/sendername"
+         android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/customedittext" 
+        android:ems="10"
+        android:gravity="right"
+        android:hint="@string/userhint"
+        android:textColorHint="#EEEEEE"
+        android:inputType="text|textMultiLine"
+        android:maxLength="160"
+        android:singleLine="true"
+        android:drawableTop="@drawable/custommsg_line"
+        android:layout_marginTop="-2dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:paddingRight="5dp"
+       android:focusable="true"
+	   android:focusableInTouchMode="true"
+	   android:layout_below="@+id/customlayout">
+	</EditText>
+<CheckBox
+    android:id="@+id/checkBox2"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+     android:layout_below="@+id/checkBox1"
+    android:text="@string/approxaddress" />
+
+<CheckBox
+    android:id="@+id/checkBox1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentLeft="true"
+    android:layout_below="@+id/textView5"
+    android:checked="true"
+    android:text="@string/accuratelocation" />
+
+<TextView
+    android:id="@+id/textView2"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignLeft="@+id/customlayout"
+    android:layout_below="@+id/checkBox2"
+    android:layout_marginTop="14dp"
+    android:drawableLeft="@drawable/message_icon"
+    android:gravity="center"
+    android:text="@string/Custommsgtext"
+    android:textColor="#512525"
+    android:textSize="16sp"
+    android:textStyle="bold" />
+<LinearLayout
+        android:id="@+id/customlayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/customlinearlayout" 
+        
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        
+        
+        android:layout_below="@+id/sendername"> 
+        
+    <TextView
+        android:id="@+id/EnterNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/PhoneNumber"
+        android:textColor="#512525"
+        android:textSize="16sp"
+        android:textStyle="bold" 
+        android:layout_marginLeft="10dp"/>
+    
+    <EditText
+        android:id="@+id/phonenumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        
+        android:ems="10"
+        android:gravity="center"
+        android:hint="@string/phoneno"
+        android:inputType="text|phone"
+        android:maxLength="13"
+        android:minLines="2"
+        android:background="@null"
+        android:drawableBottom="@drawable/custommsg_line"
+        android:textColorHint="#EEEEEE"
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="5dp" >
+     </EditText>
+     
+</LinearLayout>
+</RelativeLayout>
+</ScrollView>

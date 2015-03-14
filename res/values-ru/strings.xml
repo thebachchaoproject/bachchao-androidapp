@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Bachao</string>
+    <string name="menu_settings">УСТАНОВКИ</string>
+    <string name="alert">помощь</string>
+    <string name="friends_contacts">связи</string>
+    <string name="frcontact">Введите номер</string>
+    <string name="addcontact">Добавить Контакты</string>
+    <string name="updatelocstring">Обновите мое местоположение каждого</string>
+    <string name="regex_phone">^\\(?\\d{3}[\\)?|-]\\d{3}[- ]\\d{4}((\\s=?)(ext\\.|x)\\d{1,4})?$</string>
+    <string name="onehour">1 час</string>
+    <string name="sixhours">6 часов</string>
+    <string name="daily">ежедневно</string>
+    <string name="onstartbach">Только тогда, когда запускается bachchao</string>
+    <string name="videostreaming">Потоковое видео</string>
+    <string name="emailid">электронный идентификатор</string>
+    <string name="PhoneNumber">Телефон</string>
+    <string name="done">сделанный</string>
+    <string name="Contacts">КОНТАКТЫ</string>
+    <string name="locationupdatetext">обновление местоположения</string>
+    <string name="Custommsgtext">CUSTOM MESSAGE</string>
+    <string name="never">никогда не</string>
+    <string name="locationhint">Я в настоящее время</string>
+    <string name ="custommsghint">Я, нуждающихся в помощи</string>
+    <string name="userhint">-ваше имя</string>
+    <string name="settings">УСТАНОВКИ</string>
+    <string name="space"> </string>
+    <string name="unknowncontact">пользовательское сообщение</string>
+    <string name="findinglocation">Определение местоположения</string>
+    <string name="search">Поиск</string>
+    <string name="help">Помогите, нахожусь в аварии на</string>
+	<string name="addcontact">Добавить контакт</string>
+	<string name="replacecontact">Замените токопроводящее</string>
+	<string name="assignedcontact">заданный контакт</string>
+	<string name="contactlist">Список контактов</string>
+	<string name="cannotaddcontact">Невозможно добавить контакт без номера телефона и электронный идентификатор</string>
+	<string name="cannotaddinvalid">Не удается добавить контакт с неверным номером телефона</string>
+	<string name="contactallreadyinlist">Контакт уже в вашем списке</string>
+	<string name="smsfailed"> SMS не удалось!</string>
+	<string name="cameranotavailable">Камера не доступна! </string>
+	<string name="locationsetting">Тип расположения</string>
+	<string name="approxaddress">Отправить Приблизительный адрес</string>
+	<string name="accuratelocation">Отправить точное значение Расположение</string>
+	<string name="internetconnectset">Это необходимо подключение к Интернету</string>
+	<string name ="dursmswarnpre">Сообщение будет отправлено в каждый</string>
+	<string name="dursmswarnpost">в список контактов</string>
+	<string name="contactsloading">Пожалуйста, подождите контакты загружаются ..</string>
+	<string name="nomatchingcontacts">Нет соответствующих контактов</string>
+	<string name="delete">удалять</string>
+	
+	
+</resources>

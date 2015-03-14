@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Bachao</string>
+    <string name="menu_settings">सेटिंग्स</string>
+    <string name="alert">चेतावनी</string>
+    <string name="friends_contacts">संपर्क</string>
+    <string name="frcontact">नंबर दर्ज</string>
+    <string name="addcontact">संपर्क जोड़ें</string>
+    <string name="updatelocstring">मेरा स्थान अपडेट हर </string>
+    <string name="regex_phone">^\\(?\\d{3}[\\)?|-]\\d{3}[- ]\\d{4}((\\s=?)(ext\\.|x)\\d{1,4})?$</string>
+    <string name="onehour">1 घंटा</string>
+    <string name="sixhours">6 घंटा</string>
+    <string name="daily">रोजाना</string>
+    <string name="onstartbach">जब बचाओ शुरू कर दिया है केवल</string>
+    <string name="videostreaming">वीडियो स्ट्रीमिंग</string>
+    <string name="emailid">ईमेल आईडी</string>
+    <string name="PhoneNumber">फोन नंबर</string>
+    <string name="done">किया</string>
+    <string name="Contacts">ताल्लुक़ात</string>
+    <string name="locationupdatetext">स्थिति अद्यतन</string>
+    <string name="Custommsgtext">सीमा-शुल्क संदेश</string>
+    <string name="never">कभी नहीं</string>
+    <string name="locationhint">मैं वर्तमान में</string>
+    <string name ="custommsghint">मैं मदद की जरूरत में हूँ</string>
+    <string name="userhint">-आपका नाम</string>
+    <string name="settings">सेटिंग्स</string>
+    <string name="space"> </string> 
+    <string name="unknowncontact">अज्ञात संपर्क</string>
+    <string name="findinglocation">स्थान ढूँढना</string>
+    <string name="search">खोज</string>
+	<string name="help">मदद करना! मैं एक आपात स्थिति में हूँ</string>
+	<string name="addcontact">संपर्क जोड़ें</string>
+	<string name="replacecontact">संपर्क प्रतिस्थापित करना</string>
+	<string name="assignedcontact">निरुपित संपर्क करें</string>
+	<string name="contactlist">सूची संपर्क</string>
+	<string name="cannotaddcontact">कोई फोन नंबर और ईमेल आईडी के साथ कोई संपर्क नहीं जोड़ सकता</string>
+	<string name="cannotaddinvalid">अवैध फोन नंबर के साथ संपर्क नहीं जोड़ सकता</string>
+	<string name="contactallreadyinlist">संपर्क अपनी सूची पर पहले से ही है</string>
+	<string name="smsfailed"> एसएमएस में विफल रहा है !!! </string>
+	<string name="cameranotavailable">कैमरा उपलब्ध नहीं </string>
+	<string name="locationsetting">स्थान के प्रकार</string>
+	<string name="approxaddress">अनुमानित पते भेजें</string>
+	<string name="accuratelocation">सही स्थान भेजें</string>
+	<string name="internetconnectset">यह इंटरनेट कनेक्टिविटी की जरूरत</string>
+	<string name ="dursmswarnpre">एक एसएमएस भेजा जाएगा हर</string>
+	<string name="dursmswarnpost">में आपके संपर्कों को</string>
+	<string name="contactsloading">संपर्क लोड कर रहे हैं कृपया प्रतीक्षा करें ..</string>
+	<string name="nomatchingcontacts">संपर्क मिलान नहीं कर रहे हैं</string>
+	<string name="delete">हटाना</string>
+	
+
+</resources>

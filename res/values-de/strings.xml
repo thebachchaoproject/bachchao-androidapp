@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Bachao</string>
+    <string name="menu_settings">EINSTELLUNGEN</string>
+    <string name="alert">Hilfe</string>
+    <string name="friends_contacts">Kontakte</string>
+    <string name="frcontact">Nummer eingeben</string>
+    <string name="addcontact">Kontakte hinzufügen</string>
+    <string name="updatelocstring">Aktualisieren Sie mein Standort jede</string>
+    <string name="regex_phone">^\\(?\\d{3}[\\)?|-]\\d{3}[- ]\\d{4}((\\s=?)(ext\\.|x)\\d{1,4})?$</string>
+    <string name="onehour">1 Stunde</string>
+    <string name="sixhours">6 Stunde</string>
+    <string name="daily">Täglich</string>
+    <string name="onstartbach">Nur wenn bachchao gestartet</string>
+    <string name="videostreaming">Video-strömend</string>
+    <string name="emailid">Email Id</string>
+    <string name="PhoneNumber">Telefonnummer</string>
+    <string name="done">Geschehen</string>
+    <string name="Contacts">KONTAKTE</string>
+    <string name="locationupdatetext">Standort aktualisieren</string>
+    <string name="Custommsgtext">benutzerdefinierte Nachricht</string>
+    <string name="never">nie</string>
+    <string name="locationhint">Ich bin derzeit bei</string>
+    <string name ="custommsghint"> Bitte um Hilfe </string>
+    <string name="userhint">-Ihre Name</string>
+    <string name="settings">EINSTELLUNGEN</string>
+    <string name="space"> </string>
+    <string name="unknowncontact">Unbekannt Kontakt</string>
+    <string name="findinglocation">Standort finden</string>
+    <string name="search">Suchen</string>
+	<string name="help">Hilfe, Notruf, Ich bin im Gefahr.. </string>
+	<string name="addcontact">Kontakt hinzufügen</string>
+	<string name="replacecontact">ERSETZEN KONTAKT</string>
+	<string name="assignedcontact">Belegt Kontakt</string>
+	<string name="contactlist">KONTAKT LISTE</string>
+	<string name="cannotaddcontact">Der Kontakt kann ohne Telefonnummer und Email ID nicht hingefügt</string>
+	<string name="cannotaddinvalid">Mit dem ungültigen Telefonnummer kann der Kontakt nicht hingefügt </string>
+	<string name="contactallreadyinlist">Der Kontakt ist bereits auf Ihrer Liste</string>
+	<string name="smsfailed"> SMS gescheitert !!! </string>
+	<string name="cameranotavailable">Kamera nicht zur Verfügung!! </string>
+    <string name="locationsetting">Art der Standort</string>
+	<string name="approxaddress">ungefähre Adresse schicken</string>
+	<string name="accuratelocation">genauer Standort schicken</string>
+	<string name="internetconnectset">Dies braucht Internet-Anschluss</string>
+	<string name ="dursmswarnpre">Eine SMS-Kurzmeldung wird jede</string>
+	<string name="dursmswarnpost">zu Ihren Kontakten geschickt.</string>
+	<string name="contactsloading">Bitte warten Kontakte werden geladen ..</string>
+	<string name="nomatchingcontacts">keine passenden Kontakte</string>
+	<string name="delete">löschen</string>
+</resources>

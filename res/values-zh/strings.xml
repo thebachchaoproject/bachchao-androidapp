@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Bachao</string>
+    <string name="menu_settings">设置</string>
+    <string name="alert">帮助</string>
+    <string name="friends_contacts">往来</string>
+    <string name="frcontact">输入号码</string>
+    <string name="addcontact">添加联系人</string>
+    <string name="updatelocstring">每更新我的位置</string>
+    <string name="regex_phone">^\\(?\\d{3}[\\)?|-]\\d{3}[- ]\\d{4}((\\s=?)(ext\\.|x)\\d{1,4})?$</string>
+    <string name="onehour">1小时</string>
+    <string name="sixhours">6小时</string>
+    <string name="daily">日常</string>
+    <string name="onstartbach">只有当启动bachchao</string>
+    <string name="videostreaming">视频流</string>
+    <string name="emailid">电子邮件身分证</string>
+    <string name="PhoneNumber">电话号码</string>
+    <string name="done">完成</string>
+    <string name="Contacts">联系</string>
+    <string name="locationupdatetext">位置更新</string>
+    <string name="Custommsgtext">自定义消息</string>
+    <string name="never">从来没有</string>
+    <string name="locationhint">我目前在</string>
+    <string name ="custommsghint">我需要帮助</string>
+    <string name="userhint">-你的名字</string>
+    <string name="space"> </string> 
+     <string name="unknowncontact">未知的联系</string>
+    <string name="findinglocation">查找地点</string>
+    <string name="search">搜索</string>
+	<string name="help">救命啊！我在紧急情况下，</string>
+	<string name="addcontact">添加联系人</string>
+	<string name="replacecontact">更换联系人</string>
+	<string name="assignedcontact">分配的接触</string>
+	<string name="contactlist">联络名单</string>
+	<string name="cannotaddcontact">没有电话号码和电子邮件身分证不能添加联系人</string>
+	<string name="cannotaddinvalid">无法添加联系人的电话号码无效</string>
+	<string name="contactallreadyinlist">联系已经在您的名单</string>
+	<string name="smsfailed"> 短信失败！ </string>
+	<string name="cameranotavailable">相机无法使用！ </string>
+	<string name="locationsetting">位置类型</string>
+	<string name="approxaddress">发送大约地址</string>
+	<string name="accuratelocation">发送精确位置值</string>
+	<string name="internetconnectset">这需要互联网连接</string>
+	<string name ="dursmswarnpre">一条短信将被送到每</string>
+	<string name="dursmswarnpost">您的联系人</string>
+	<string name="contactsloading">请等待触点加载..</string>
+	<string name="nomatchingcontacts">没有匹配的联系人</string>
+	<string name="delete">删除</string>
+
+</resources>

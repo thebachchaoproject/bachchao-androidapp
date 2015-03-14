@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Bachao</string>
+    <string name="menu_settings">সেটিংসে</string>
+    <string name="alert">সাহায্য</string>
+    <string name="friends_contacts">যোগাযোগ</string>
+    <string name="frcontact">নম্বর লিখুন</string>
+    <string name="addcontact">পরিচিতিগুলি যোগ করুন</string>
+    <string name="updatelocstring">প্রতি আমার অবস্থান আপডেট</string>
+    <string name="regex_phone">^\\(?\\d{3}[\\)?|-]\\d{3}[- ]\\d{4}((\\s=?)(ext\\.|x)\\d{1,4})?$</string>
+    <string name="onehour">1 ঘন্টা</string>
+    <string name="sixhours">6 ঘন্টা</string>
+    <string name="daily">দৈনিক</string>
+    <string name="onstartbach">Bachchao শুরু হয় শুধুমাত্র যখন</string>
+    <string name="videostreaming">ভিডিও স্ট্রিমিং</string>
+    <string name="emailid">ইমেইল আইডি</string>
+    <string name="PhoneNumber">ফোন নম্বর</string>
+    <string name="done">করা</string>
+    <string name="Contacts">পরিচিতি</string>
+    <string name="locationupdatetext">অবস্থান এর আপডেট</string>
+    <string name="Custommsgtext">কাস্টম বার্তা</string>
+    <string name="never">কখনত্ত নহে</string>
+    <string name="locationhint">আমি বর্তমানে</string>
+    <string name ="custommsghint">আমি সাহায্য প্রয়োজন </string>
+    <string name="userhint">-আপনার নাম</string>
+    <string name="space"> </string> 
+    <string name="unknowncontact">অজানা যোগাযোগ</string>
+    <string name="findinglocation">অবস্থান খোঁজ</string>
+    <string name="search">অনুসন্ধান করুন</string>
+	<string name="help">সাহায্য করুন! আমি জরুরী সময়ে</string>
+	<string name="addcontact">পরিচিতি যোগ করুন</string>
+	<string name="replacecontact">যোগাযোগ প্রতিস্থাপন</string>
+	<string name="assignedcontact">নিয়োগ যোগাযোগ</string>
+	<string name="contactlist">যোগাযোগ তালিকা</string>
+	<string name="cannotaddcontact">কোন ফোন নম্বর এবং ইমেইল আইডির সঙ্গে একটি পরিচিতি যুক্ত করা যাবে না</string>
+	<string name="cannotaddinvalid">অবৈধ ফোন নম্বর সঙ্গে যোগাযোগ যুক্ত করা যাবে না</string>
+	<string name="contactallreadyinlist">যোগাযোগ আপনার তালিকা ইতিমধ্যেই</string>
+	<string name="smsfailed"> এসএমএস করতে ব্যর্থ হয়েছে! </string>
+	<string name="cameranotavailable">পাওয়া যায় না ক্যামেরা! </string>
+	<string name="locationsetting">পাঁচ প্রকার</string>
+	<string name="approxaddress">আনুমানিক ঠিকানা পাঠান</string>
+	<string name="accuratelocation">সঠিক অবস্থান মূল্য পাঠান</string>
+	<string name="internetconnectset">এই ইন্টারনেট সংযোগ প্রয়োজন</string>
+	<string name ="dursmswarnpre">পাঁচ আপনার পরিচিতি প্রতিটি</string>
+	<string name="dursmswarnpost">পাঠানো হবে</string>
+	<string name="contactsloading">যোগাযোগ লোড অনুগ্রহ করে অপেক্ষা করুন ..</string>
+	<string name="nomatchingcontacts">কোনো মিল যোগাযোগ</string>
+	<string name="delete">মুছে দিন</string>
+    
+
+</resources>

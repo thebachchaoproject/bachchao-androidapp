@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.saakshin.bachao"
+    android:versionCode="3"
+    android:versionName="1.0.2" >
+
+    <uses-sdk
+        android:minSdkVersion="7"
+        android:targetSdkVersion="22" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.READ_CONTACTS"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"></uses-permission>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"></uses-permission>
+   <uses-permission android:name="android.permission.CAMERA"/>
+   	<uses-permission android:name="android.permission.RECORD_AUDIO"/>
+   	<uses-feature android:name="android.hardware.camera"/>
+	<uses-feature android:name="android.hardware.camera.autofocus"/>
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+	<uses-permission android:name="android.permission.SEND_SMS"/>
+	<uses-permission android:name="android.permission.CHANGE_NETWORK_STATE"/>
+	<uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/launch_icon"
+        android:label="@string/app_name"
+        android:theme="@style/Theme.AppCompat.Light" >
+        <receiver   android:name="Alarm"></receiver>
+        <receiver android:name="com.saakshin.bachao.AutoStart">
+    		<intent-filter>
+  	    	  <action android:name="android.intent.action.BOOT_COMPLETED"></action>
+    		</intent-filter>
+			</receiver>
+        <activity
+            android:name="com.saakshin.bachao.MainActivity"
+            android:screenOrientation="portrait"
+            android:label="@string/app_name" >
+            <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            
+        </activity>
+        <activity android:name="alertActivity" android:launchMode="standard"></activity>
+        <activity android:name="settingsActivity" android:screenOrientation="portrait" android:launchMode="standard"></activity>
+        <activity android:name="SettingsActivityICS" android:screenOrientation="portrait" android:launchMode="standard"></activity>
+ 		<activity android:name="contactslistActivity" android:screenOrientation="portrait" android:launchMode="standard" ></activity>
+ 		<activity android:name="contactslistActivityICS" android:screenOrientation="portrait" android:launchMode="standard" ></activity>
+ 		<activity android:name="digitalwitness" android:screenOrientation="portrait" android:launchMode="standard"></activity>
+ 		<service android:name="com.saakshin.bachao.LocationFinder" android:exported ="false" ></service> 	
+ 		</application>
+ 		
+		
+   	
+	
+</manifest>

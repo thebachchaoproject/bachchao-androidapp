@@ -1,0 +1,37 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context=".MainActivity" >
+
+    <ImageButton
+        android:id="@+id/button1"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"   
+        android:background="@android:color/transparent" 
+        android:clickable="true"
+        android:src="@drawable/bachao_button" />
+
+    <Button
+         android:id="@+id/menu_settings"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="210dp"
+        android:layout_height="120dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="38dp"
+        android:background="@drawable/mysettings_btn"
+        android:clickable="true"
+        android:text="@string/settings"
+        android:textSize="22dp"
+        android:textColor="#512525"
+        android:textStyle="bold"
+        android:paddingBottom="10dp"
+        android:fontFamily="Gotham-Medium"
+        android:textAllCaps="true"
+        android:textScaleX="1.0"/>
+
+</RelativeLayout>
